@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "拼团详情",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-countdown": "/components/uni-countdown/uni-countdown",
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "share": "/components/share"
+  }
+}

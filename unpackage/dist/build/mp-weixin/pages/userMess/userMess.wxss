@@ -1,0 +1,1 @@
+page{background-color:#fff}.bottom_box{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center}.bottom_box .bottom_service:after{content:"|";margin:0 20rpx}.bottom_box .bottom_service, .bottom_box .bottom_left{text-decoration:underline}

@@ -1,0 +1,366 @@
+{
+	"pages": [
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "黎氏阁生活广场"
+			}
+		},
+		{
+			"path": "pages/product/product",
+			"style": {
+				"navigationBarTitleText": "商品展示",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+
+		{
+			"path": "pages/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/public/login",
+			"style" : {
+				"navigationBarTitleText":"登录"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+				
+			}
+		}, {
+			"path": "pages/money/money",
+			"style": {
+				"navigationBarTitleText": "余额",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "消费记录",
+							"fontSize": "26rpx",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/order/createOrder",
+			"style": {
+				"navigationBarTitleText": "创建订单"
+			}
+		}, {
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		}, {
+			"path": "pages/address/addressManage",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "删除",
+							"fontSize": "26rpx",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/money/pay",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "pages/money/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		}
+	    ,{
+            "path" : "pages/notice/notice",
+            "style" : {
+				"navigationBarTitleText": "通知"
+			}
+        }
+        ,{
+            "path" : "pages/category/category",
+            "style" : {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/product/list",
+            "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "商品列表"
+			}
+        }
+        ,{
+            "path" : "pages/shop/shop",
+            "style": {
+            	"navigationBarTitleText": "店铺信息"
+            	
+            }
+        }
+        ,{
+            "path" : "pages/pintuan/pintuan",
+            "style" : {
+				"navigationBarTitleText": "拼团"
+			}
+        }
+        ,{
+            "path" : "pages/product/product-pintuan",
+            "style": {
+            	"navigationBarTitleText": "拼团详情",
+            	"app-plus": {
+            		"titleNView": {
+            			"type": "transparent"
+            		}
+            	}
+            }
+        }
+		,{
+		    "path" : "pages/product/product-kanjia",
+		    "style": {
+		    	"navigationBarTitleText": "砍价详情",
+		    	"app-plus": {
+		    		"titleNView": {
+		    			"type": "transparent"
+		    		}
+		    	}
+		    }
+		}
+		,{
+		    "path" : "pages/product/product-miaosha",
+		    "style": {
+		    	"navigationBarTitleText": "秒杀详情",
+		    	"app-plus": {
+		    		"titleNView": {
+		    			"type": "transparent"
+		    		}
+		    	}
+		    }
+		}
+        ,{
+            "path" : "pages/lqyh/lqyh",
+            "style" : {
+				"navigationBarTitleText": "领取优惠"
+			}
+        }
+        ,{
+            "path" : "pages/sryh/sryh",
+            "style" : {
+				"navigationBarTitleText": "生日优惠"
+			}
+        }
+        ,{
+            "path" : "pages/kanjia/kanjia",
+            "style" : {
+				"navigationBarTitleText": "砍价免费拿",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "规则",
+							"fontSize": "26rpx",
+							"color": "#000"
+						}]
+					}
+				}
+			}
+        }
+		,{
+		    "path" : "pages/kanjia/info",
+		    "style" : {
+				"navigationBarTitleText": "砍价详情"
+			}
+		}
+        ,{
+            "path" : "pages/bkms/bkms",
+            "style" : {
+				"navigationBarTitleText": "爆款秒杀"
+			}
+        }
+        ,{
+            "path" : "pages/hdxx/hdxx",
+            "style" : {
+				"navigationBarTitleText": "活动信息"
+			}
+        }
+        ,{
+            "path" : "pages/jpsh/jpsh",
+            "style" : {
+				"navigationBarTitleText": "金牌商户"
+			}
+        }
+        ,{
+            "path" : "pages/myCollect/myCollect",
+            "style" : {
+				"navigationBarTitleText": "我的收藏"
+			}
+        }
+        ,{
+            "path" : "pages/myQuan/myQuan",
+            "style" : {
+				"navigationBarTitleText":"优惠券"
+			}
+        }
+        ,{
+            "path" : "pages/moneyRecord/moneyRecord",
+            "style" : {
+				"navigationBarTitleText":"消费记录"
+			}
+        }
+        ,{
+            "path" : "pages/userMess/userMess",
+            "style" : {
+				"navigationBarTitleText":"个人信息"
+			}
+        }
+        ,{
+            "path" : "pages/myGold/myGold",
+            "style" : {
+				"navigationBarTitleText":"我的金币"
+			}
+        }
+        ,{
+            "path" : "pages/order/orderDetails",
+            "style" : {
+				"navigationBarTitleText":"订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/shq/shq",
+            "style" : {
+				"navigationBarTitleText":"生活圈"
+			}
+        }
+        ,{
+            "path" : "pages/createPtOrder/createPtOrder",
+            "style" : {
+				"navigationBarTitleText": "拼团订单提交"
+			}
+        }
+        ,{
+            "path" : "pages/mygroups/mygroups",
+            "style" : {
+				"navigationBarTitleText": "我的拼团"
+			}
+        }
+        ,{
+            "path" : "pages/mygroups/groupsorder",
+            "style" : {
+				"navigationBarTitleText": "我的拼团订单"
+			}
+        }
+        ,{
+            "path" : "pages/money/grouppay",
+            "style" : {
+				"navigationBarTitleText": "拼团支付"
+			}
+        }
+        ,{
+            "path" : "pages/mygroups/orderDetails",
+            "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/mygroups/groups_detail",
+            "style" : {
+				"navigationBarTitleText": "拼团详情"
+			}
+        }
+        ,{
+            "path" : "pages/order/store/store",
+            "style" : {
+				"navigationBarTitleText": "门店列表"
+			}
+        }
+        ,{
+            "path" : "pages/ptgz/ptgz",
+            "style" : {
+				"navigationBarTitleText": "拼团规则"
+			}
+        }
+        ,{
+            "path" : "pages/order/orderCancelAv",
+            "style" : {
+				"navigationBarTitleText": "订单核销"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#FF5722",
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/s11.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"iconPath": "static/tab-cate.png",
+				"selectedIconPath": "static/tab-cate-current.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/s4.png",
+				"selectedIconPath": "static/tab-cart-current.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/s5.png",
+				"selectedIconPath": "static/tab-my-current.png",
+				"text": "我的"
+			}
+		]
+	}
+}

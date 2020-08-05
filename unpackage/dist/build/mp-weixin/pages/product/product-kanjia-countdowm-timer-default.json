@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "product-kanjia-countdowm-timer-default": "/pages/product/product-kanjia-countdowm-timer-default",
+    "share": "/components/share",
+    "countdowm-timer": "/components/countdown-timer/countdown-timer"
+  }
+}

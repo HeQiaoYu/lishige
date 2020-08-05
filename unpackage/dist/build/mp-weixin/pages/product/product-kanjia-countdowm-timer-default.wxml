@@ -1,0 +1,1 @@
+<view>{{day+"天"+hour+"时"+minute+"分"+second+"秒"}}</view>

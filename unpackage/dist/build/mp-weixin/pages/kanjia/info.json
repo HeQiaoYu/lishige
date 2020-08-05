@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "砍价详情",
+  "usingComponents": {
+    "info-countdowm-timer-default": "/pages/kanjia/info-countdowm-timer-default",
+    "countdowm-timer": "/components/countdown-timer/countdown-timer"
+  }
+}

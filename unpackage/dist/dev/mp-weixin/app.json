@@ -1,0 +1,102 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/set/set",
+    "pages/userinfo/userinfo",
+    "pages/cart/cart",
+    "pages/public/login",
+    "pages/user/user",
+    "pages/detail/detail",
+    "pages/order/order",
+    "pages/money/money",
+    "pages/order/createOrder",
+    "pages/address/address",
+    "pages/address/addressManage",
+    "pages/money/pay",
+    "pages/money/paySuccess",
+    "pages/notice/notice",
+    "pages/category/category",
+    "pages/product/list",
+    "pages/shop/shop",
+    "pages/pintuan/pintuan",
+    "pages/product/product-pintuan",
+    "pages/product/product-kanjia",
+    "pages/product/product-miaosha",
+    "pages/lqyh/lqyh",
+    "pages/sryh/sryh",
+    "pages/kanjia/kanjia",
+    "pages/kanjia/info",
+    "pages/bkms/bkms",
+    "pages/hdxx/hdxx",
+    "pages/jpsh/jpsh",
+    "pages/myCollect/myCollect",
+    "pages/myQuan/myQuan",
+    "pages/moneyRecord/moneyRecord",
+    "pages/userMess/userMess",
+    "pages/myGold/myGold",
+    "pages/order/orderDetails",
+    "pages/shq/shq",
+    "pages/createPtOrder/createPtOrder",
+    "pages/mygroups/mygroups",
+    "pages/mygroups/groupsorder",
+    "pages/money/grouppay",
+    "pages/mygroups/orderDetails",
+    "pages/mygroups/groups_detail",
+    "pages/order/store/store",
+    "pages/ptgz/ptgz",
+    "pages/order/orderCancelAv"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#FF5722",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/s11.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/tab-cate.png",
+        "selectedIconPath": "static/tab-cate-current.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/s4.png",
+        "selectedIconPath": "static/tab-cart-current.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/s5.png",
+        "selectedIconPath": "static/tab-my-current.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于配置送货地址"
+    }
+  },
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "uni-countdown": "/components/uni-countdown/uni-countdown",
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar"
+  },
+  "sitemapLocation": "sitemap47.json"
+}

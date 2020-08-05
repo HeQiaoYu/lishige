@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "黎氏阁生活广场",
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "uni-countdown": "/components/uni-countdown/uni-countdown"
+  }
+}

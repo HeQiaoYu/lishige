@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "砍价详情",
+  "usingComponents": {
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "product-kanjia-countdowm-timer-default": "/pages/product/product-kanjia-countdowm-timer-default",
+    "share": "/components/share",
+    "countdowm-timer": "/components/countdown-timer/countdown-timer"
+  }
+}

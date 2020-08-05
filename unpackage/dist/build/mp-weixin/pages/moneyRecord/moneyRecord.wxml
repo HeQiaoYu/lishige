@@ -1,0 +1,1 @@
+<view><view class="moneyRecordList"><block wx:for="{{recordList}}" wx:for-item="item" wx:for-index="key" wx:key="key"><view class="monRecItem flexBox between"><view class="monRec-name"><text>在线支付</text>余额：0.00</view><view class="monRec-num"><text>-20.00</text>2020-02-12</view></view></block></view></view>

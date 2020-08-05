@@ -1,0 +1,189 @@
+{
+    "name" : "黎氏阁",
+    "appid" : "__UNI__CE0D3D1",
+    "description" : "",
+    "versionName" : "3.7.8",
+    "versionCode" : 378,
+    "transformPx" : false,
+    "app-plus" : {
+        /* 5+App特有相关 */
+        "usingComponents" : true,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {
+            "Push" : {},
+            "Payment" : {},
+            "Maps" : {},
+            "Share" : {}
+        },
+        "privacy" : {
+            "prompt" : "template", //可取值template、custom、none  
+            "template" : {
+                //prompt取值为template时有效，用于配置模板提示框上显示的内容
+                "title" : "服务协议和隐私政策",
+                "message" : "尊敬的用户，欢迎您注册成为本应用用户，在注册前请您仔细阅读<a href='http://h5.ilishige.com/user_policy.html'>《用户协议》</a>及<a href='http://h5.ilishige.com/privacy_policy.html'>《隐私政策》</a>，了解我们对您使用我们APP制定的规则，您个人信息的处理以及申请权限的目的和使用范围。<br/>　　经您确认后，本用户协议和隐私权政策即在您和本应用之间产生法律效力。请您务必在注册之前认真阅读全部服务协议内容，如有任何疑问，可向本应用客服咨询。",
+                "buttonAccept" : "同意",
+                "buttonRefuse" : "暂不使用"
+            }
+        },
+        /* 模块配置 */
+        "distribute" : {
+            /* 应用发布信息 */
+            "android" : {
+                /* android打包配置 */
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ],
+                "schemes" : "lishige"
+            },
+            "ios" : {
+                "urltypes" : "lishige",
+                "privacyDescription" : {
+                    "NSLocationWhenInUseUsageDescription" : "该应用需要你的地理位置，以便为你提供当前位置信息",
+                    "NSLocationAlwaysAndWhenInUseUsageDescription" : "该应用需要持续获取用户地理位置，以便为你进行导航",
+                    "NSPhotoLibraryUsageDescription" : "该应用需要读取你的相册，以便为你编辑骑手信息",
+                    "NSPhotoLibraryAddUsageDescription" : "该应用需要读取你的相册，以便为你编辑骑手信息",
+                    "NSCameraUsageDescription" : "该应用需要你的相机，以便你拍摄上传骑手信息",
+                    "NSMicrophoneUsageDescription" : "该应用需要使用你的麦克风，以便订单语音播放",
+                    "NSContactsUsageDescription" : "该应用需要读取你的通讯录，以便骑手与买家联系",
+                    "NSLocationAlwaysUsageDescription" : "该应用需要你的地理位置，以便为你提供当前位置信息",
+                    "NSCalendarsUsageDescription" : "该应用需要获取你的日历，以便更好的体验",
+                    "NSRemindersUsageDescription" : "为了更好的体验，后面请同意授权选项"
+                }
+            },
+            /* ios打包配置 */
+            "sdkConfigs" : {
+                "payment" : {
+                    "weixin" : {
+                        "appid" : "wx4414b1721f3d1302",
+                        "UniversalLinks" : "https://demo.dcloud.net.cn/ulink/",
+                        "__platform__" : [ "ios", "android" ]
+                    }
+                },
+                "push" : {},
+                "ad" : {},
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "uni.UNI51B4087",
+                        "appkey_android" : "b71edde9fd8fafe4ea7c88d640ec3e81"
+                    }
+                },
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wx4414b1721f3d1302",
+                        "UniversalLinks" : "https://demo.dcloud.net.cn/ulink/"
+                    }
+                }
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            },
+            "splashscreen" : {
+                "android" : {
+                    "xhdpi" : "",
+                    "xxhdpi" : ""
+                },
+                "ios" : {
+                    "iphone" : {
+                        "retina47" : ""
+                    }
+                }
+            }
+        }
+    },
+    /* SDK配置 */
+    "quickapp" : {},
+    /* 快应用特有相关 */
+    "mp-weixin" : {
+        /* 小程序特有相关 */
+        "usingComponents" : true,
+        "appid" : "wx4dbd5e32746e6468",
+        "setting" : {
+            "urlCheck" : true
+        },
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "您的位置信息将用于配置送货地址"
+            }
+        }
+    },
+    "h5" : {
+        "title" : "黎氏阁",
+        "domain" : "h5.ilishige.com",
+        "router" : {
+            "mode" : "history",
+            "base" : "/lishige/"
+        },
+        "devServer" : {
+            "port" : 80,
+            "disableHostCheck" : true,
+            "proxy" : {
+                "/api" : {
+                    "target" : "http://xxx.mydomain.com",
+                    "changeOrigin" : true,
+                    "secure" : false
+                }
+            }
+        }
+    }
+}
+/* SDK配置 *//* 快应用特有相关 *//* 小程序特有相关 */
+

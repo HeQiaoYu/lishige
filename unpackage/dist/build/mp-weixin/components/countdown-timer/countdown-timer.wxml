@@ -1,0 +1,1 @@
+<view><slot></slot><scoped-slots-default timeData="{{timeData}}" remain="{{timeData.remain}}" day="{{timeData.day}}" hour="{{timeData.hour}}" minute="{{timeData.minute}}" second="{{timeData.second}}" bind:__l="__l"></scoped-slots-default></view>

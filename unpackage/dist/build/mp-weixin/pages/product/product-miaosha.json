@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "秒杀详情",
+  "usingComponents": {
+    "uni-countdown": "/components/uni-countdown/uni-countdown",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "share": "/components/share"
+  }
+}
